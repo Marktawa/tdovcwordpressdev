@@ -57,6 +57,48 @@
           allowfullscreen></iframe>
           </div>
       </section>
+      <section id="news-events">
+        <h2 class="news-header">Latest News</h2>
+        <div class="row">
+          <div class="column" id="announcements">
+            <!--<h2 class="news-event-title">Announcements</h2>-->
+            <div class="image-container-summary">
+              <img
+                src="https://raw.githubusercontent.com/Marktawa/twatasha/main/images/twatasha-news-disability-cert.jpg"
+                loading="lazy" alt="Twatasha Disabled and OVC Organization">
+            </div>
+            <h3 class="news-event-heading">Disability Certification and issuance of Disability Cards</h3>
+            <h6 class="news-event-date">7 June 2021</h6>
+            <p class="news-event-text">There will be disability certification and issuance of disability cards on
+              Tuesday the 7th of June 2021 at Twatasha Community School. You are all invited not to miss this rare
+              opportunity as Zambia Agency for Persons with Disabilities will be in Kafue.</p>
+          </div>
+          <div class="column">
+            <!-- <h2 class="news-event-title">Stories</h2> -->
+            <div class="image-container-summary">
+              <img src="https://raw.githubusercontent.com/Marktawa/twatasha/main/images/2021%20FSP%20ALLOCATION%20FOR%20PERSONS%20WITH%20DISABILITIES%20MEETING-image-2.jpg"
+                loading="lazy" alt="People sitting outside of Twatasha Disabled and OVC Organization">
+            </div>
+            <h3 class="news-event-heading">2021 FSP Allocation for persons with disabilities meeting</h3>
+            <h6 class="news-event-date">11 November 2021</h6>
+            <p class="news-event-text"> On Thursday the 11th of November 2021, we met as the Disability People’s Organisations Consortium (DPOC) for Kafue District, Lusaka Province, Zambia together with the representative for the Ministry of Community Development and Social Welfare, Leah Mumbi...</p>
+          </div>
+          <div class="column">
+            <!--<h2 class="news-event-title">Events</h2>-->
+            <div class="image-container-summary">
+              <img
+                src="https://raw.githubusercontent.com/Marktawa/twatasha/main/images/twatasha-home-kafue-residents.jpg"
+                loading="lazy" alt="Twatasha Disabled and OVC Organization">
+            </div>
+            <h3 class="news-event-heading">Kafue Residents Community Meeting</h3>
+            <h6 class="news-event-date">23 May 2021</h6>
+            <p class="news-event-text">On 23rd May 2021, we had a community meeting with Kafue residents. We discussed
+              how to support persons with disabilities and their families. The community wanted to know how the
+              government and other stakeholders are helping our communities through social cash transfer.</p>
+          </div>
+        </div>
+        <a href="pages/news/"> <button id="news-events-btn">See all our latest news</button></a>
+      </section>
       <section id="summary">
         <div class="summary" id="volunteer">
           <div class="level">
@@ -99,48 +141,7 @@
           <a href="pages/donate.html"><button class="btn">Donate</button></a>
         </div>
       </section>
-      <section id="news-events">
-        <h2 class="news-header">News happening at Twatasha Disabled and OVC organisation</h2>
-        <div class="row">
-          <div class="column" id="announcements">
-            <h2 class="news-event-title">Announcements</h2>
-            <div class="image-container-summary">
-              <img
-                src="https://raw.githubusercontent.com/Marktawa/twatasha/main/images/twatasha-news-disability-cert.jpg"
-                loading="lazy" alt="Twatasha Disabled and OVC Organization">
-            </div>
-            <h3 class="news-event-heading">Disability Certification and issuance of Disability Cards</h3>
-            <h6 class="news-event-date">7 June 2021</h6>
-            <p class="news-event-text">There will be disability certification and issuance of disability cards on
-              Tuesday the 7th of June 2021 at Twatasha Community School. You are all invited not to miss this rare
-              opportunity as Zambia Agency for Persons with Disabilities will be in Kafue.</p>
-          </div>
-          <div class="column">
-            <h2 class="news-event-title">Stories</h2>
-            <div class="image-container-summary">
-              <img src="https://raw.githubusercontent.com/Marktawa/twatasha/main/images/2021%20FSP%20ALLOCATION%20FOR%20PERSONS%20WITH%20DISABILITIES%20MEETING-image-2.jpg"
-                loading="lazy" alt="People sitting outside of Twatasha Disabled and OVC Organization">
-            </div>
-            <h3 class="news-event-heading">2021 FSP Allocation for persons with disabilities meeting</h3>
-            <h6 class="news-event-date">11 November 2021</h6>
-            <p class="news-event-text"> On Thursday the 11th of November 2021, we met as the Disability People’s Organisations Consortium (DPOC) for Kafue District, Lusaka Province, Zambia together with the representative for the Ministry of Community Development and Social Welfare, Leah Mumbi...</p>
-          </div>
-          <div class="column">
-            <h2 class="news-event-title">Events</h2>
-            <div class="image-container-summary">
-              <img
-                src="https://raw.githubusercontent.com/Marktawa/twatasha/main/images/twatasha-home-kafue-residents.jpg"
-                loading="lazy" alt="Twatasha Disabled and OVC Organization">
-            </div>
-            <h3 class="news-event-heading">Kafue Residents Community Meeting</h3>
-            <h6 class="news-event-date">23 May 2021</h6>
-            <p class="news-event-text">On 23rd May 2021, we had a community meeting with Kafue residents. We discussed
-              how to support persons with disabilities and their families. The community wanted to know how the
-              government and other stakeholders are helping our communities through social cash transfer.</p>
-          </div>
-        </div>
-        <a href="pages/news/"> <button id="news-events-btn">See all our latest news</button></a>
-      </section>
+      
       <section id="partners">
         <h2 class="news-header">Our Partners</h2>
         <div class="partner-group">
