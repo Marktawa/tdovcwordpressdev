@@ -3,13 +3,10 @@
 
 <head>
   <link rel="stylesheet" href="/wp-content/themes/tdovcwordpresstheme/style.css">
-  
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
     rel="stylesheet">
-
-  <!--<script src="https://kit.fontawesome.com/9ac95a91c7.js" crossorigin="anonymous"></script>-->
-  <link rel="stylesheet" href="assets/static/fontawesome-5153/css/all.css">
+  <link rel="stylesheet" href="/wp-content/themes/tdovcwordpresstheme/assets/icons/fontawesome-5153/css/all.css">
   <script src="scripts/header.js"></script>
 
   <meta charset="UTF-8">
