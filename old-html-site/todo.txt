@@ -1,0 +1,81 @@
+TO DO:
+
+- Week 07/12 to 07/19
+	Minimum Viable Product
+	-	Add appropriate images to site --
+	-	Make website mobile responsive -- DONE
+		- header
+			- highlight currently selected page
+			- separate logo from links
+			- add hamburger menu
+	-	Add links to buttons -- DONE
+	-	Contact form (https://lo-victoria.com/how-to-build-a-contact-form-with-javascript-and-nodemailer)
+	-	Add background image to hero section, full width. Add text on top of image. DONE
+	-	Refactor footer (partly offline)
+	-	Projects: Get projects from Mr. Shamalambo
+	-	Add favicon and logo
+	-	Purchase and configure DNS
+	-	Update Google Business information
+	-	Add to Google Search Console
+	-/*****REQUIREMENTS FROM TDOVC STAFF******/
+		-	Board Member list
+		-	Staff list
+		-	Projects info
+		-	Image placements
+	/****************THE END****************/
+	
+- Week 06/28 to 07/05
+
+	Minimum Viable Product
+	-	About Us Page:                    {{DONE}}
+		- Add Staff section                    {{DONE}}
+		- Board, Management, Staff                    {{DONE}}
+		- Add organogram image                    {{DONE}}
+	-	Accessibility Page:                    {{DONE}}
+	-	Photo Gallery: Link to Facebook                    {{DONE}} 
+	-	Jobs: Put section stating no jobs currently available                    {{DONE}}
+	-	Contact Us: Add map                    {{DONE}} 
+	-	Donate: Leave as is.                    {{DONE}}
+	-	Events: No page                    {{DONE}}
+	-	News: 3 sample articles within page: collapsed,                    {{DONE}}
+	-	Our Work: Put 1 success story, {get from email}, Separate page for full story                    {{DONE}}
+	-	Privacy Policy: Copy from Leonard Cheshire                    {{DONE}}
+ 
+	-	Publications: {Get ZAPD certificate from email}, Should open in new tab                    {{DONE}}
+	-	Terms and Conditions: Copy Terms and Conditions from Leonard Cheshire                    {{DONE}}
+	-	Move Success Stories to Our Work page (offline)                    {{DONE}}
+	-	Include Projects on header menu (offline)                    {{DONE}}
+
+	-	Create color profile for website (offline)                    {{DONE}}
+		/* Custom properties/variables  */
+		:root {
+  		--off-white: #e6e6e6;
+  		--yellow: #f8f800;
+  		--green: #009900;
+  		--dark-green: #003300;
+  		--orange: #ffa500;
+  		--gray: #b3b3b3;
+  		--light-gray: #cccccc;
+  		--lighter-gray: #d9d9d9;
+  		--dark-gray: #bfbfbf;
+  		--darker-gray: #999999;
+		--maroon: #a62c34;
+		--light-black: #1a1a1a;
+  		--dark-black: #0d0d0d;
+		}
+
+	-	Add legitimizing publications to Publications page                    {{DONE}}
+	-	Create sample articles for News, Events, Announcements                    {{DONE}}	
+	-	Label Image placeholders (offline)                    {{DONE}} 
+	
+Non MVP
+	-	Consistent CSS theme for Button
+	-	Add Background Image using CSS
+	-	Create contact form
+	-	Mailing list via Node.js
+	-	Add local support for font
+	-	Photo gallery using html
+	-	Announcements: 3 sample articles within page: collapsible
+	-	Cookies Policy: Cookies policy using HTML CSS
+	-	COVID-19 Policy: Copy Cheshire Homes Society Zambia
+	-	Add sitemap

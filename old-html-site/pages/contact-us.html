@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <link rel="stylesheet" href="../styles/header.css">
+    <link rel="stylesheet" href="../styles/subpage.css">
+    <link rel="stylesheet" href="../styles/footer.css">
+    <link rel="stylesheet" href="../styles/styles.css">
+
+    <link rel="stylesheet" href="../styles/contact.css">
+  
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+    
+    <!--<script src="https://kit.fontawesome.com/9ac95a91c7.js" crossorigin="anonymous"></script>-->  
+    <link rel= "stylesheet" href="../assets/static/fontawesome-5153/css/all.css">
+    <script src="../scripts/header.js"></script>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twatasha Disabled and OVC Organization</title>
+  </head>
+  
+  <body>
+    <div id="page-wrapper">
+      <header id="header-large">
+        <a href="../index.html" id="logo-placeholder">Twatasha Disabled & OVC Organisation</a>
+        <nav id="navbar">
+          <a href="about-us.html">About Us</a>  
+          <a href="/pages/news/index.html">News</a>
+          <a href="our-work.html">Our Work</a>
+          <a href="contact-us.html">Contact Us</a>
+          <a href="donate.html">Donate</a>
+        </nav>
+      </header>
+      <header id="header-small">
+        <a href="../index.html" id="logo-small">Twatasha Disabled & OVC Organisation</a>
+        <a href="../index.html" id="logo-smallest">TDOVC</a>
+        <nav id="navbar-small">
+          <a href="about-us.html">About Us</a>  
+          <a href="/pages/news/index.html">News</a>
+          <a href="our-work.html">Our Work</a>
+          <a href="contact-us.html">Contact Us</a>
+          <a href="donate.html">Donate</a>
+        </nav>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </header>
+    <main id="main">
+      <section class="subpage-hero">
+        <h1>Contact Us</h1>
+      </section>
+      <section class="subpage-section">
+        <h1>Contact Details</h1>
+        <div>
+          <h2>Physical Address</h2>
+          <p>Twatasha Disabled and OVC Organization,</p>
+          <p>Plot No. F12/Flash Butt, Zambia Compound</p>
+          <p>10101</p>
+          <p>Kafue, Lusaka Province, Zambia</p>
+        </div>
+        <div>
+          <h2>Phone Number</h2>
+          <p>+260972551791</p>
+        </div>
+        <div>
+          <h2>E-mail</h2>
+          <p>tdovc2012@gmail.com</p>
+        </div>
+        <div id="social-media">
+          <h2>Social Media</h2>
+          <ul>
+            <li>
+              <a href="https://www.facebook.com/tdovc2012" target="_blank">
+                <span class='fab fa-facebook fa-lg'></span>
+                <span>Follow us on Facebook</span>
+              </a>
+            </li>
+            <li>
+              <a href="mailto:tdovc2012@gmail.com" target="_blank">
+                <span class='fas fa-envelope fa-lg'></span>
+                <span>Email Us</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://wa.me/260972551791" target="_blank">
+                <span class='fab fa-whatsapp fa-lg'></span>
+                <span>Send Us a message on Whatsapp</span>
+              </a>
+            </li>
+            <!-- <li>
+                            <a href="https://www.linkedin.com">
+                                <span class='fa fa-linkedin fa-lg'></span>
+                                <span>Follow us on LinkedIn</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.youtube.com">
+                                <span class='fa fa-youtube fa-lg'></span>
+                                <span>Follow us on YouTube</span>
+                            </a>
+                        </li> -->
+          </ul>
+        </div>
+      </section>
+      <section class="subpage-section" id="email-form">
+                <h1>Send us a message</h1>
+                <!-- Contact Us Form -->
+  <div id="contact-us-form-block">
+    <h2>Send us a message</h2>
+    <form action="https://stark-everglades-77513.herokuapp.com/send" method="post" id="contact-us-form" enctype="multipart/form-data">
+      <ul>
+        <li>
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required>
+        </li>
+        <li>
+          <label for="email">E-mail</label>
+          <input type="email" id="email" name="email" required>
+        </li>
+        <li>
+          <label for="subject">Subject</label>
+          <input id="subject" name="subject" type="text" required />
+        </li>
+        <li>
+          <label for="msg">Message</label>
+          <textarea id="message" name="message" required></textarea>
+        </li>
+        <li class="button">
+          <button type="submit" value="submit">Send</button>
+        </li>
+      </ul>
+    </form>
+  </div>
+            </section>
+      <section class="subpage-section" id="map-locale">
+        <h1>Map Location</h1>
+        <div class="map-container">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3839.7516665388284!2d28.168051412799098!3d-15.764271026409562!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1940c3c33a12edb1%3A0x7bb697d099ff075!2sTwatasha%20Disabled%20and%20OVC&#39;s%20Organisation!5e0!3m2!1sen!2szm!4v1625139632192!5m2!1sen!2szm"
+            loading="lazy">
+          </iframe>
+        </div>
+      </section>
+    </main>
+    <footer id="footer">
+      <div class="container-outer">
+        <div class="site-footer-container-inner">
+          <div class="site-footer-navigation-primary">
+            <div class="site-footer-navigation-primary-inner">
+              <h2 class="site-footer-title">Quick links</h2>
+              <div class="region-region-footer-first">
+                <nav id="block-footer" class="block block-menu navigation menu--footer" role="navigation">
+                  <ul class="menu">
+                    <li class="menu-item">
+                      <a href="our-work.html">Our Work</a>
+                    </li>
+                    <li class="menu-item">
+                      <a href="contact-us.html">Contact us</a>
+                    </li>
+                    <li class="menu-item">
+                     <a href="https://www.facebook.com/tdovc2012/photos" target="_blank">
+Photo Gallery</a>
+                    </li>
+                    <li class="menu-item">
+                      <a href="jobs.html">Jobs</a>
+                    </li>
+                    <li class="menu-item">
+                      <a href="projects.html">Projects</a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+          </div>
+          <div class="site-footer-cta">
+            <div class="site-footer-cta-inner">
+              <h2 class="site-footer-title">Stay up to date</h2>
+              <div class="region-region-footer-second">
+                <div id="block-footersecondarycontent-2" class="block-footersecondarycontent-2">
+                  <div class="text-formatted-field">
+                    <p>Sign up to our newsletter to be kept up to date with our latest news and events.</p>
+                  </div>
+                </div>
+                <div class="signup-form block" id="block-signupblock">
+                  <form id="form" action="#">
+                    <input name="email" id="email" type="email" placeholder="Enter your email address" required />
+                    <input id="submit" type="submit" value="Sign Up" class="btn" />
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="site-footer-social">
+            <div class="site-footer-social-inner">
+              <h2 class="site-footer-title">Connect with us</h2>
+              <div class="region-region-footer-third">
+                <div id="block-socialmedialinks" class="block-social-media-links">
+                  <ul class="social-media-links-platforms">
+                    <li>
+                      <a href="https://www.facebook.com/tdovc2012" target="_blank">
+                        <span class='fab fa-facebook fa-lg' aria-hidden='true'></span>
+                        <span class="visually-hidden">Follow us on Facebook</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="mailto:tdovc2012@gmail.com" target="_blank">
+                        <span class='fas fa-envelope fa-lg' aria-hidden='true'></span>
+                        <span class="visually-hidden">E-mail us</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://wa.me/260972551791" target="_blank">
+                        <span class='fab fa-whatsapp fa-lg' aria-hidden='true'></span>
+                        <span class="visually-hidden">Follow us on Whatsapp</span>
+                      </a>
+                    </li>
+                    <!--<li>
+                      <a href="https://www.linkedin.com" target="_blank">
+                        <span class='fab fa-linkedin fa-lg' aria-hidden='true'></span>
+                        <span class="visually-hidden">Follow us on LinkedIn</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://www.youtube.com"target="_blank">
+                        <span class='fab fa-youtube fa-lg' aria-hidden='true'></span>
+                        <span class="visually-hidden">Follow us on YouTube</span>
+                      </a>
+                    </li>-->
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="site-footer-container-inner" id="second-footer-section">
+          <div class="site-footer-navigation-secondary">
+
+            <h2 class="visually-hidden">Additional Twatasha Disabled and OVC Organisation information</h2>
+            <div class="region-region-footer-fourth">
+              <nav id="block-footersecondary" class="block block-menu navigation menu--footer-secondary"
+                role="navigation">
+                <ul id="mini-footer-menu" class="menu">
+                  <li class="menu-item">
+                    <a href="privacy-policy.html">Privacy Notice</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="accessibility.html">Accessibility</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="terms-and-conditions.html">Terms and Conditions</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+          <div class="site-footer-col-container">
+            <div class="site-footer-col">
+              <div class="site-footer-additional">
+                <div class="region region-footer-fifth">
+                  <div id="block-footer-fifth-content" class="block-footerfifth-content">
+                    <div class="clearfix-text-formatted-field">
+                      <p>Twatasha Disabled and OVC Organisation is a company limited by guarantee, registered in
+                        Zambia, and a registered non-governmental organisation (Zambia). Registered office: Kafue,
+                        Lusaka Province, Zambia.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <script src="../scripts/contact.js"></script>
+</body>
+
+</html>
