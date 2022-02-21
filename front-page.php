@@ -58,7 +58,7 @@
           </div>
       </section>
       <section id="news-events">
-        <h2 class="news-header">Latest News</h2>
+        <h2 class="news-header">The Latest News</h2>
         <div class="row">
           <div class="column" id="announcements">
             <!--<h2 class="news-event-title">Announcements</h2>-->
