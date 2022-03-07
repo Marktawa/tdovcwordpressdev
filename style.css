@@ -335,13 +335,25 @@ License URI: https://opensource.org/licenses/MIT
     display: flex;
     flex-direction: row;
   }
-  
+ 
   .column {
     display: flex;
     flex-direction: column;
     width: 33%;
     margin-right: 1%;
     padding-top: 1rem;
+  }
+
+  .column a {
+    text-decoration: none;
+    background-color: transparent;
+    list-style: none;
+  }
+
+  .column a:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 0.18em;
+    color: var(--maroon);
   }
   
   #announcements {
